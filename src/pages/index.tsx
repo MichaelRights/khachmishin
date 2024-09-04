@@ -25,22 +25,22 @@ const IndexPage: React.FC<PageProps> = () => {
           md: 12,
           sm: 10,
         }}
-        style={{ background: "#FFC700" }}
+        style={{ background: "#D9D9D9" }}
       >
         <Box display="flex" gap={5} alignItems="center">
           <IconSm />
-          <h2>ՄԻՔՆԱՐ</h2>
+          <h2>ԽԱՉՄԻՇՇԻՆ</h2>
         </Box>
         <Typography
           gap={1}
           display="flex"
-          fontSize="20px"
+          fontSize="1.25rem"
           alignItems="center"
           variant="subtitle2"
           fontWeight="700"
         >
           <IconBaselinePhone />
-          +374 93 38 23 84
+          +374 93 19 12 00
         </Typography>
       </Box>
       <Box component="main" height="100%">
@@ -64,10 +64,9 @@ const IndexPage: React.FC<PageProps> = () => {
               style={{ textWrap: "wrap" }}
               variant="body1"
             >
-              "ՄԻՔՆԱՐ" ՍՊԸ-ն քաղաքաշինության բնագավառում իրականացնում է
-              շինարարության որակի տեխնիկական հսկողություն։ Միաժամանակ
-              իրականացնում է քաղաքաշինության գործունեության օբյեկտների
-              հետախուզման և հետազննման ծառայություններ։
+              "ԽԱՉՄԻՇՇԻՆ" ՍՊԸ-ն քաղաքաշինության բնագավառում իրականացնում է
+              շինարարակն աշխատանքներ։ Միաժամանակ իրականացնում է շինարարության
+              որակի տեխնիկական վերահսկողություն։
             </Typography>
           </Grid>
           <Grid item className="construction" lg={6} md={6} sm={0} />
@@ -84,7 +83,7 @@ const IndexPage: React.FC<PageProps> = () => {
         alignItems="center"
         gap={10}
         style={{
-          background: "#FFC700",
+          background: "#D9D9D9",
         }}
       >
         <IconSm />
@@ -93,25 +92,24 @@ const IndexPage: React.FC<PageProps> = () => {
           <Typography
             variant="body1"
             display="flex"
-            fontSize="18px"
+            fontSize="1.125rem"
             component="a"
-            href="mailto:miqnar@mail.ru"
+            href="mailto:hamzyan@mail.ru"
             alignItems="self-end"
             gap={1}
           >
             <IconMailSolid />
-            miqnar@mail.ru
+            hamzyan@mail.ru
           </Typography>
           <Typography
             gap={1}
             display="flex"
             alignItems="self-end"
-            fontSize="18px"
+            fontSize="1.125rem"
             variant="subtitle2"
             fontWeight="700"
           >
-            <IconLocationFilled /> ՀՀ Տավուշի մարզ ք․ Իջևան, Մետաղագործների Փ․
-            /Տ/27Ա
+            <IconLocationFilled /> ՀՀ Տավուշի մարզ ք. Իջևան, Նալբանդյան 1/5
           </Typography>
         </Box>
       </Box>
