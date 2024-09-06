@@ -82,6 +82,7 @@ const IndexPage: React.FC<PageProps> = () => {
         display="flex"
         alignItems="center"
         gap={10}
+        justifyContent="space-between"
         style={{
           background: "#D9D9D9",
         }}
@@ -110,6 +111,19 @@ const IndexPage: React.FC<PageProps> = () => {
             fontWeight="700"
           >
             <IconLocationFilled /> ՀՀ Տավուշի մարզ ք. Իջևան, Նալբանդյան 1/5
+          </Typography>
+        </Box>
+        <Box>
+          <p></p>
+          <Typography
+            gap={1}
+            display="flex"
+            alignItems="self-end"
+            fontSize="1.125rem"
+            variant="subtitle2"
+            fontWeight="700"
+          >
+            Կայքը գտնվում է վերազինման փուլում
           </Typography>
         </Box>
       </Box>
