@@ -114,7 +114,7 @@ const IndexPage: React.FC<PageProps> = () => {
           </Typography>
         </Box>
         <Box>
-          <p></p>
+          <p style={{ height: 28 }}>&nbsp;</p>
           <Typography
             gap={1}
             display="flex"
